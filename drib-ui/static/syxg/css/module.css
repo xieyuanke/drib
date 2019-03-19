@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+  	font-family: "微软雅黑";
+  	display: flex;
+  	flex-direction: column;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+.module-box .header{
+	background: #e1e1e1;
+	padding: 0 150px;
+	user-select: none;
+	border: 0;
+}
+.module{
+	display: -webkit-flex;
+	padding: 0 150px;	
+}
+/*左侧导航*/
+.module-left{
+	width: 240px;
+	border-right: 2px solid #eee;
+}
+
+.module-left strong{
+	width: 100%;
+	display: block;
+	color: #303133;
+	line-height: 40px;
+	font-size: 18px;
+}
+.left-ul ul{
+	overflow-y: auto;
+}
+.left-ul li{
+	cursor: pointer;
+	line-height: 40px;
+	text-indent: 15px;
+}
+.left-ul h3{
+	font-weight: normal;
+	font-size: 15px;
+	color: #444;
+}
+.left-ul a{
+	color: #606266;
+	padding-left: 15px;
+}
+/*右侧区域内容*/
+.module-right{
+	padding-left: 50px;
+	height: 100px;
+	background: #fff;
+}
+.title h1{
+	font-weight: normal;
+	color: #303133;
+	padding-top: 50px;
+}
+.title p{
+	color: #606266;
+	line-height: 40px;
+	text-indent: 50px;
+}
+.content{
+	margin-top: 10px;
+}
+.content h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: #303133;
+}
+.content h3{
+	font-weight: normal;
+	text-indent: 50px;
+	line-height: 30px;
+	color: #303133;
+}
+.content p{
+	text-indent: 100px;
+	line-height: 40px;
+	color: #303133;
+	background: #eee;
+}
+.content i{
+	display: block;
+	line-height: 20px;
+	text-indent: 100px;
+	color: #303133;
+}
+.content span{
+	color: red;
+}
